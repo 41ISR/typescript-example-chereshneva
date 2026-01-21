@@ -1,0 +1,63 @@
+ body {
+      font-family: Arial, sans-serif;
+      background: #292424;
+      padding: 20px;
+    }
+
+    .app {
+      max-width: 500px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    input, select, button {
+      padding: 8px;
+      font-size: 14px;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    .total {
+      font-size: 18px;
+      margin-bottom: 16px;
+      font-weight: bold;
+    }
+
+    .expense {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .expense:last-child {
+      border-bottom: none;
+    }
+
+    .category {
+      font-size: 12px;
+      color: #666;
+    }
+
+    .amount {
+      font-weight: bold;
+    }
+
+    .expense--necessary{
+      color: red;
+    }
