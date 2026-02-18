@@ -29,7 +29,7 @@ export const App = () => {
   })
 
   const [expenses, setExpenses] = useState<IExpense[]>([
-
+    
   ])
 
   const HandleFormChange = (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
